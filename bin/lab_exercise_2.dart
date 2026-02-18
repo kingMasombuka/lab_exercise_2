@@ -8,6 +8,7 @@ import 'package:lab_exercise_2/Exercise_5.dart' as exercise_5;
 import 'package:lab_exercise_2/exercise_6.dart' as exercise_6;
 import 'package:lab_exercise_2/exercise_7.dart' as exercise_7;
 import 'package:lab_exercise_2/exercise_8.dart' as exercise_8;
+import 'package:lab_exercise_2/exercise_9.dart' ;
 
 void main(List<String> arguments) {
   // exercise_1.guessNumber(-5);
@@ -40,5 +41,14 @@ void main(List<String> arguments) {
   // exercise_7.Student guestStudent = exercise_7.Student.guest();
   // guestStudent.displayInfo();
 
-  print(exercise_8.checkDivision(10, 0));
+  // print(exercise_8.checkDivision(10, 0));
+  try {
+    int age = 15;
+    if (age < 18) throw  AgeException("You must be at least 18!");
+    checkAge(age);
+  
+  } catch (e) {
+    print("sdsfsd sfsf sdfsd ");
+  }
+
 }
