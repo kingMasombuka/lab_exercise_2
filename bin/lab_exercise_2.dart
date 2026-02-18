@@ -7,11 +7,12 @@ import 'package:lab_exercise_2/exercise_4.dart' as exercise_4;
 import 'package:lab_exercise_2/Exercise_5.dart' as exercise_5;
 import 'package:lab_exercise_2/exercise_6.dart' as exercise_6;
 import 'package:lab_exercise_2/exercise_7.dart' as exercise_7;
+import 'package:lab_exercise_2/exercise_8.dart' as exercise_8;
+
 void main(List<String> arguments) {
   // exercise_1.guessNumber(-5);
   // exercise_1.guessNumber(10);
   // exercise_1.guessNumber(0);
-
 
   // // exercise_2.evenNumbers();
 
@@ -24,7 +25,7 @@ void main(List<String> arguments) {
 
   // exercise_5.Book book1 = exercise_5.Book();
   // book1.title = "Dart Basics";
-  // book1.author = "Alice"; 
+  // book1.author = "Alice";
   // exercise_5.Book book2 = exercise_5.Book();
   // book2.title = "Flutter Guide";
   // book2.author = "Charlie";
@@ -38,5 +39,6 @@ void main(List<String> arguments) {
 
   // exercise_7.Student guestStudent = exercise_7.Student.guest();
   // guestStudent.displayInfo();
-  
+
+  print(exercise_8.checkDivision(10, 0));
 }
